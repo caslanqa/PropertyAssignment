@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://www.propertyfinder.bh/",
+    "defaultCommandTimeout": 10000,
+    "viewportHeight": 1080,
+    "viewportWidth": 1320,
+    "retries": 0
+}

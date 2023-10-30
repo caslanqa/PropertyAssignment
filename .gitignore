@@ -4,6 +4,6 @@ package-lock.json
 /.vscode
 .DS_Store
 *.mp4
-/results
-/screenshots
-/videos
+/results/
+/screenshots/
+/videos/

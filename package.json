@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "propertyFinder": "./node_modules/.bin/cypress-tags run -e TAGS='@wip' --browser electron"
+    "propertyFinder": "./node_modules/.bin/cypress-tags run -e TAGS='@wip' --browser electron",
+    "cypress:run": "cypress run"
   },
   "keywords": [],
   "author": "",

@@ -4,5 +4,12 @@
     "defaultCommandTimeout": 10000,
     "viewportHeight": 1080,
     "viewportWidth": 1320,
-    "retries": 0
+    "retries": 0,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": true,
+        "html": true,
+        "json": false
+    }
 }

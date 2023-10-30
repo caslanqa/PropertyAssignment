@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get install zip -y
 
       - name: Zip report
-        run: zip -r home/runner/work/PropertyAssignment/PropertyAssignment/cypress/results.zip home/runner/work/PropertyAssignment/PropertyAssignment/cypress/results/*
+        run: zip -r **/cypress/results.zip . -i **/cypress/results/*
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v3

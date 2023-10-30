@@ -25,7 +25,7 @@ jobs:
         run: npm run propertyFinder
 
       - name: Send Email Notification
-        uses: softprops/action-email@v1
+        uses: adappt/action-mailer
         with:
           to: cihan.aslan.qa@gmail.com
           subject: Test Report

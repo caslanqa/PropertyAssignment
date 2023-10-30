@@ -23,3 +23,16 @@ jobs:
 
       - name: Run Cypress Tests
         run: npm run propertyFinder
+
+      - name: Send Email Notification
+        uses: softprops/action-email@v1
+        with:
+          to: cihan.aslan.qa@gmail.com
+          subject: Test Report
+          body: Test report is attached.
+          files: /home/runner/work/PropertyAssignment/PropertyAssignment/cypress/results/*.html
+        env:
+          SMTP_SERVER: smtp.google.com
+          SMTP_PORT: 465
+          SMTP_USERNAME: ${{ secrets.USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.PASSWORD }}

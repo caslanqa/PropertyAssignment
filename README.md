@@ -13,6 +13,7 @@
 * **[integration](./cypress/integration)** folder includes feature file
 * **[propertyfind](./cypress/integration/propertyfind)** folder includes step definitions
 * **[support/index.js](cypress/support/index.js)**, **[plugin/index.js](cypress/plugins/index.js)**, **[cypress.json](./cypress.json)**, **[package.json](./package.json)** files includes project configurations
+* **[cypress.yml](.github/workflows/cypress.yml)** file added for Github Actions run
 ## Test Execution
 * Initially install Node.js with given link at the above
 * Then install git with given link at the above
